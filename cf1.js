@@ -66,7 +66,7 @@ async function fetchAndApply(request) {
 
     if (url.protocol == 'http:') {
 
-        url.protocol = 'https:'
+        url.protocol = 'http:'
 
         response = Response.redirect(url.href);
 
